@@ -2,7 +2,7 @@ from __future__ import print_function
 
 import logging
 import pytest
-from retry_deco import retry
+from retrylib import retry
 
 logging.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=logging.DEBUG)
 logger = logging.getLogger(__name__)
