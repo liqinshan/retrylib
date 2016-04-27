@@ -9,5 +9,13 @@
 
 ### Example
 
-参考 `test_retry`
+```python
+from retry import retry
+
+@retry(max_retries=3, exceptions=(OSError, IOError), logger=None)
+def test():
+    pass
+```
+
+
 
