@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 __author__ = "lqs"
 
 setup(
-    name="retry",
+    name="retrylib",
     version="0.1",
     description="retry some times on some exceptions",
     author="lqs",

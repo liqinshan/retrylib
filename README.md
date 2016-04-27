@@ -5,7 +5,7 @@
 
 执行命令：
 
-`pip install git+https://github.com/davechina/retry.git`
+`pip install git+https://github.com/davechina/retrylib.git`
 
 ### Example
 
